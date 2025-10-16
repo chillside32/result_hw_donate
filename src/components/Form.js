@@ -15,7 +15,7 @@ export class Form extends Component {
     $input.className = "donate-form__donate-input";
     $input.name = "amount";
     $input.type = "number";
-    $input.max = 100;
+    $input.max = 200;
     $input.min = 1;
     $input.required = true;
     this.$input = $input;
