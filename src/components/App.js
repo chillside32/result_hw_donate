@@ -29,6 +29,6 @@ export class App extends Component {
   }
 
   onItemCreate(amount) {
-    // ...
+    console.log("Просто проверка");
   }
 }
